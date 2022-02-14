@@ -105,3 +105,11 @@ The git stash command is useful whenever we have changes that we are not yet rea
   > git stash drop stash@{0}
 - Or if we want to get rid of all of the stashes, we can use the clear command. 
   > git stash clear
+
+## Cloning a Git repository
+Cloning is downloading a project from its remote repository on GitHub, onto your own computer. For this example, we will clone the Project repository from GitHub, to get the files on our computer. To begin, we need to delete the already existing files from our computer.
+
+- The first step is to go to the repository on GitHub. We need to locate the green button with the word “Code” on it and copy the HTTPS link, which in this case is https://github.com/mmb1214/Tutorial.git.
+- Then, in the terminal, we need to change directory to the desktop, so that the repository’s files can be easily located on our desktop.
+  > cd desktop
+- Finally, we need to use the clone command and paste the url after it. This will get the project from GitHub and put it on our computer. And this will create a new folder with the name of the repository, on our computer. In this case, the repository was called “Tutorial,” so the folder on our computer will also share that name.
